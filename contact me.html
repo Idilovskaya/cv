@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <p><a href="mailto:icimage.me@gmail.com">icimage.me@gmail.com</a></p>
+  </body>
+  <body>
+    <p>Fictional Address</p>
+  </body>
+  <body>
+    <p>fictional phone number 93484 699 383</p>
+  </body>
+  <form action="mailto:icimage.me@gmail.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="yourName" size="10">
+    <br>
+    <br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" pattern=".+@globex\.com" size="30" required>
+    <br>
+    <br>
+    <label>Your Message</label><br>
+    <textarea name="yourMessage" rows="8" cols="80"></textarea><br>
+    <input type="button" name="submit" value="submit">
+    <br>
+    <p>Gender:</p>
+    <div>
+  <input type="checkbox" id="female" name="female"checked>
+  <label for="female">Female</label>
+    </div>
+    <div>
+  <input type="checkbox" id="male" name="male"checked>
+  <label for="male">Male</label>
+    </div>
+    <div>
+  <input type="checkbox" id="prefernottosay" name="prefernottosay"checked>
+  <label for="prefernottosay">Prefer Not To Say</label>
+    </div>
+  <br>
+  <label for="start">Start Date</label>
+  <input type="date" name="trip-start" value="2022-01-17">
+  </form>
+</html>
